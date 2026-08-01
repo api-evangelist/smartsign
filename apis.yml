@@ -1,8 +1,26 @@
 aid: smartsign
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartsign.png
 name: Smartsign
-description: 'Smartsign is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Smartsign (SmartSign) is a Brooklyn, New York-based e-commerce retailer
+  of customizable signs, labels, and tags for regulatory, compliance, and safety applications,
+  founded in 1999. It sells pre-designed and custom signage - safety, parking, traffic,
+  property, and facility signs, plus banners and labels - online to businesses of all
+  sizes, including a large share of the Fortune 1000 across education, healthcare, and
+  industrial verticals. Norwest Venture Partners acquired the company in 2019 and Sentinel
+  Capital Partners acquired it in September 2022. SmartSign operates as a business-to-business
+  and business-to-consumer e-commerce storefront and does not publish a public developer
+  API, developer portal, or OpenAPI surface.'
 url: https://raw.githubusercontent.com/api-evangelist/smartsign/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,22 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-note: 'Probed 2026-07-21 - no public API: all /.well-known/* and /api paths
+  return 404, no api/developer/docs subdomains resolve, and the homepage exposes no
+  developer resources. SmartSign is an e-commerce sign/label retailer.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Signage
+- E-Commerce
+- Labels
+- Safety
+- Compliance
+- Retail
+- Printing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/smartsign-domain-security.yml
 - type: Website
-  url: https://smartsign.com
+  url: https://www.smartsign.com
+- type: Blog
+  url: https://www.smartsign.com/blog
+- type: TermsOfService
+  url: https://www.smartsign.com/terms
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
