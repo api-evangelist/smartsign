@@ -32,7 +32,7 @@ x-api-surface: none
 x-api-surface-note: 'Probed 2026-07-21 - no public API: all /.well-known/* and /api paths
   return 404, no api/developer/docs subdomains resolve, and the homepage exposes no
   developer resources. SmartSign is an e-commerce sign/label retailer.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
