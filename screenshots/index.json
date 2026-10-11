@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "smartsign",
+    "captured_at": "2026-10-11T192835",
+    "source_url": "https://www.smartsign.com",
+    "source_type": "Website",
+    "file": "smartsign-2026-10-11T192835.png",
+    "bytes": 716095,
+    "capture": "playwright-local"
+  }
+]
